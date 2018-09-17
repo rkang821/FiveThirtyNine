@@ -1,0 +1,41 @@
+html {
+  background-color: #fafafa;
+  overflow-x: hidden;
+  max-width: 100%
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+nav {
+  font-size: 22px;
+  line-height: 40px;
+  padding: 10px;
+}
+
+#intro {
+  background-color: #AFC8E0;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px
+}
+
+#intro p {
+  font-family: "Lato";
+  letter-spacing: 0.05em;
+  color: black;
+}
+
+#dropdown {
+  background-color: #fafafa;
+  padding: 5px;
+  text-align: center;
+}
+
+#footer {
+  background-color: grey;
+  color: white;
+  font-size: 13px;
+  padding: 5px;}
