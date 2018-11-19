@@ -1,41 +1,76 @@
 html {
   background-color: #fafafa;
   overflow-x: hidden;
-  max-width: 100%
+  max-width: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
 body {
   font-family: 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
+  margin: 0;
 }
 
 nav {
   font-size: 22px;
   line-height: 40px;
   padding: 10px;
+  text-align: center;
 }
 
 #intro {
   background-color: #AFC8E0;
   text-align: center;
   font-size: 15px;
-  padding: 10px
+  padding: 3px;
 }
 
 #intro p {
   font-family: "Lato";
   letter-spacing: 0.05em;
-  color: black;
+  color: #484848;
+  margin-left: 110px;
+  margin-right: 110px;
 }
 
 #dropdown {
   background-color: #fafafa;
   padding: 5px;
-  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
+#dropdown p {
+    font-family: "Lato";
+    letter-spacing: 0.05em;
+    color: black;
+}
+
+#ML p {
+    
+}
+
+#SA {
+    background-color: #fafafa;
+}
+
+#results {
+    background-color: grey;
+    padding: 5px;
+}
+
+#results p {
+    font-family: "Lato";
+    letter-spacing: 0.05em;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+
 #footer {
-  background-color: grey;
+  background-color: #666666;
   color: white;
   font-size: 13px;
-  padding: 5px;}
+  padding: 10px;}
